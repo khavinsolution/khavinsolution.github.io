@@ -1,0 +1,23 @@
+import { Container, Divider } from "@mui/material";
+import OurService from "../components/OurService";
+import Section1 from "../components/Section1";
+import Section2 from "../components/Section2";
+import Section3 from "../components/Section3";
+import OurClients from "../components/OurClients";
+import VerbalBrand from "../components/VerbalBrand";
+import ConnectForm from "../components/Connect";
+function LandingPage() {
+  return (
+    <Container maxWidth={false}>
+      <Section1 />
+      <Section2 />
+      <Divider />
+      <Section3 />
+      <OurService />
+      <OurClients />
+      {/* <ConnectForm /> */}
+    </Container>
+  );
+}
+
+export default LandingPage;
