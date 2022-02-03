@@ -107,9 +107,9 @@ function Workspace({ isShowImage }: any) {
                                             {item.story.title}
                                         </Typography>
                                         {item.story.contents.map(content => {
-                                            return content[0] === "*" ? <Typography pl={6} variant="body1" align="left" color="textPrimary">
+                                            return content[0] === "*" ? <Typography pl={6} variant="body2" align="left" color="textPrimary">
                                                 {content}<br></br><br></br>
-                                            </Typography> : <Typography variant="body1" align="left" color="textPrimary">
+                                            </Typography> : <Typography variant="body2" align="left" color="textPrimary">
                                                 {content}<br></br><br></br>
                                             </Typography>
                                         })}

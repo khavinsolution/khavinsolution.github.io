@@ -37,10 +37,9 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const navLinks: NavLink[] = [
-  { title: `Trang chủ`, path: `/#`, icon: HomeIcon },
-  { title: `Về chúng tôi`, path: `/about-us` },
-  { title: `Con người`, path: `/people` },
-  { title: `Liên hệ`, path: `/contact` },
+  { title: `Home`, path: `/` },
+  { title: `About Us`, path: `/about-us` },
+  { title: `Portfolio`, path: `/portfolio` },
 ];
 
 const SideDrawer = () => {
@@ -66,7 +65,8 @@ const SideDrawer = () => {
       onKeyDown={toggleDrawer(false)}
     >
       <div className={classes.logoContainer}>
-        <img alt="logo" src={logo} className={classes.logo} />
+        {/* <img alt="logo" src={logo} className={classes.logo} /> */}
+        <h5>Khavisolution</h5>
       </div>
       <Divider />
       <List component="nav">

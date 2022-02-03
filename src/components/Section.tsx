@@ -30,7 +30,6 @@ const useStyles = makeStyles({
 
   },
   subCardTitle: {
-    marginBottom: '20px',
     textTransform: 'capitalize',
     fontFamily: 'Fira Sans',
   },
@@ -61,7 +60,7 @@ function Section({ paddingBottomCustom, isMore = true, isFullWidth, image, data,
                 <Typography variant="h4" color="secondary" align="left" className={classes.subCardTitle}>
                   {data.subtitle}
                 </Typography>
-                <Typography variant="subtitle2" align="left" color="textPrimary">
+                <Typography variant="subtitle2" align="left" color="textPrimary" pt={3}>
                   {data.content}
                 </Typography>
               </CardContent>
@@ -104,7 +103,7 @@ function Section({ paddingBottomCustom, isMore = true, isFullWidth, image, data,
                     <Typography variant="h3" color="secondary" align="left" className={classes.subCardTitle}>
                       {content.subtitle}
                     </Typography>
-                    <Typography variant="h6" align="left" color="textPrimary">
+                    <Typography variant="h6" align="left" color="textPrimary" pt={3}>
                       {content.content}
                     </Typography>
                   </CardContent>
