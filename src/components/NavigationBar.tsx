@@ -38,10 +38,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     color: theme.palette.text.secondary,
     textTransform: `uppercase`,
   },
-  logo: {
-    width: "20%",
-  },
-
   linkText: {
     textDecoration: `none`,
     '& .MuiListItemText-primary': {
@@ -78,9 +74,10 @@ function NavigationBar() {
                 <SideDrawer />
               </Hidden>
               <Button component={Link} className={classes.navbarDisplayFlex}>
-                <img alt="logo" src={logo} className={classes.logo} />
+                {/* <img alt="logo" src={logo} className={classes.logo} /> */}
+                Khavinsolution
               </Button>
-              <Hidden mdUp>
+              <Hidden xsUp>
                 <IconButton color="primary">
                   <SearchIcon />
                 </IconButton>
