@@ -4,6 +4,7 @@ import logo from "../assets/logo.svg";
 import SearchIcon from '@mui/icons-material/Search';
 import { makeStyles } from '@mui/styles';
 import React from 'react';
+import NavLinks from '../data/nav'
 
 export type NavLink = {
   title: string;
@@ -55,12 +56,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   }
 }));
 
-const navLinks = [
-  { title: `home`, path: `/#` },
-  { title: `about us`, path: `/about-us` },
-  { title: `portfolio`, path: `/portfolio` },
-];
-
 function NavigationBar() {
   const classes = useStyles();
   return (
@@ -92,7 +87,7 @@ function NavigationBar() {
                   aria-labelledby="main navigation"
                   className={classes.navDisplayFlex}
                 >
-                  {navLinks.map(({ title, path }) => (
+                  {NavLinks.map(({ title, path }) => (
                     <a href={path} key={title} className={classes.linkText}>
                       <ListItem>
                         <ListItemText primary={<span className={classes.linkTextSpan} >{title}</span>} />

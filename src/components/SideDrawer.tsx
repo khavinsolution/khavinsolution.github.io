@@ -4,6 +4,7 @@ import { NavLink } from "./NavigationBar";
 import logo from "../assets/logo.svg";
 import MenuIcon from '@mui/icons-material/Menu';
 import { makeStyles } from "@mui/styles";
+import NavLinks from '../data/nav'
 
 const useStyles = makeStyles((theme: Theme) => ({
   list: {
@@ -35,11 +36,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   }
 }));
 
-const navLinks: NavLink[] = [
-  { title: `Home`, path: `/` },
-  { title: `About Us`, path: `/about-us` },
-  { title: `Portfolio`, path: `/portfolio` },
-];
 
 const SideDrawer = () => {
   const classes = useStyles();
@@ -68,14 +64,9 @@ const SideDrawer = () => {
       </div>
       <Divider />
       <List component="nav">
-        {navLinks.map(({ title, path, icon }, itemIndex) => (
+        {NavLinks.map(({ title, path }, itemIndex) => (
           <a href={path} key={title} className={classes.linkText}>
             <ListItem button className={state.selectedItem === itemIndex ? classes.selectedItem : ''}>
-              {icon &&
-                <ListItemIcon>
-                  <Icon component={icon} color="primary" />
-                </ListItemIcon>
-              }
               <ListItemText primary={title} />
             </ListItem>
           </a>
