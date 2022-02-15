@@ -52,7 +52,7 @@ const renderCardContent = (data: any, matches: any, classes: any) => (<CardConte
   <Typography variant={matches ? 'body2' : 'body2'} align="left" className={classes.cardTitle}>
     {data.title}
   </Typography>
-  <Typography variant={matches ? 'h4' : 'h5'} color="secondary" align="left" className={classes.subCardTitle}>
+  <Typography variant={matches ? 'h4' : 'h5'} color="secondary" align="left">
     {data.subtitle}
   </Typography>
   <Typography mt={2} variant="body2" align="left" color="textPrimary">

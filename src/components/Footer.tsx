@@ -1,10 +1,7 @@
 import {
-  AppBar,
   Box,
-  Container,
   Grid,
   Link,
-  TextField,
   Theme,
   Toolbar,
   Typography,
@@ -45,6 +42,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     color: '#fff',
     fontFamily: 'monospace !important',
   },
+  map: {
+    width: '80%',
+  }
 }));
 
 const navLinks = [
@@ -136,7 +136,7 @@ function Footer() {
               CONTACT US
             </Typography>
             <Typography sx={matches ? { display: 'flex', justifyContent: 'flex-end' } : { display: 'flex', justifyContent: 'flex-start' }} variant="subtitle1" gutterBottom component="div">
-              khang.nguyen@infinitesoftware. org
+              khang.nguyen@infinitesoftware.org
             </Typography>
             <Typography sx={matches ? { display: 'flex', justifyContent: 'flex-end' } : { display: 'flex', justifyContent: 'flex-start' }} variant="subtitle1" gutterBottom component="div">
               phone: +84903100458
@@ -147,7 +147,9 @@ function Footer() {
           </Box>
         </Grid>
         <Grid item md={8} xs={12}>
-          <Dotmap />
+          <Box className={classes.map} >
+            <Dotmap />
+          </Box>
         </Grid>
       </Grid>
 

@@ -1,5 +1,36 @@
 
+
+import { makeStyles } from '@mui/styles';
+
+const setRandomClass = () => {
+    // var ul = document.getElementsByTagName("svg");
+    // var items = ul.find("circle");
+    // var number = items.length;
+    // var random = Math.floor((Math.random() * number));
+    // items.removeClass("banaan");
+    // items.eq(random).addClass("banaan");
+}
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+    },
+    banaan: {
+        fill: '#fff',
+        transition: 'all 2s ease',
+        boxShadow: '0 0 0 0 rgba(232, 76, 61, 0.7)',
+        animation: 'pulse 1.25s infinite cubic - bezier(0.66, 0, 0, 1)',
+    }
+
+}));
 export const Dotmap = () => {
+    const classes = useStyles();
+    
+
+    setRandomClass();
+    setInterval(function () {
+        setRandomClass();
+    }, 2000);//number of milliseconds (2000 = 2 seconds)
+
     return (
         <svg
             viewBox="0 0 845.2 458"

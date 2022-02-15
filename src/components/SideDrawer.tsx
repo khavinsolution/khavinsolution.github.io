@@ -1,9 +1,8 @@
 import { Divider, Icon, IconButton, List, ListItem, ListItemIcon, ListItemText, SwipeableDrawer, Theme } from "@mui/material";
 import React, { useState } from "react";
 import { NavLink } from "./NavigationBar";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 import MenuIcon from '@mui/icons-material/Menu';
-import HomeIcon from '@mui/icons-material/Home';
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -65,8 +64,7 @@ const SideDrawer = () => {
       onKeyDown={toggleDrawer(false)}
     >
       <div className={classes.logoContainer}>
-        {/* <img alt="logo" src={logo} className={classes.logo} /> */}
-        <h5>Khavisolution</h5>
+        <img alt="logo" src={logo} className={classes.logo} />
       </div>
       <Divider />
       <List component="nav">

@@ -1,6 +1,6 @@
 import { AppBar, Button, Container, Divider, Hidden, IconButton, Link, List, ListItem, ListItemText, Theme, Toolbar } from "@mui/material";
 import SideDrawer from "./SideDrawer";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 import SearchIcon from '@mui/icons-material/Search';
 import { makeStyles } from '@mui/styles';
 import React from 'react';
@@ -16,6 +16,7 @@ const primaryColor = '#42527F'
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
     height: '0px',
+    borderTop: `8px solid ${primaryColor}`,
   },
   toolbar: {
     height: '100%',
@@ -46,8 +47,12 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   subTopBar: {
     display: `flex`,
-    background: primaryColor
+    background: primaryColor,
+    height: '16px'
   },
+  logo: {
+    width: '100%'
+  }
 }));
 
 const navLinks = [
@@ -64,7 +69,7 @@ function NavigationBar() {
         position="fixed"
         color="transparent"
         className={classes.root}>
-        <div className={classes.subTopBar}>.</div>
+        {/* <div className={classes.subTopBar}>.</div> */}
         <Toolbar
           variant="dense"
           className={classes.toolbar}>
@@ -73,9 +78,8 @@ function NavigationBar() {
               <Hidden mdUp>
                 <SideDrawer />
               </Hidden>
-              <Button component={Link} className={classes.navbarDisplayFlex}>
-                {/* <img alt="logo" src={logo} className={classes.logo} /> */}
-                Khavinsolution
+              <Button component={Link}>
+                <img alt="logo" src={logo} className={classes.logo} />
               </Button>
               <Hidden xsUp>
                 <IconButton color="primary">

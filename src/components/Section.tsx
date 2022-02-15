@@ -11,7 +11,6 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
   root: {
-    paddingTop: '2rem',
   },
   card: {
     boxShadow: 'none !important',

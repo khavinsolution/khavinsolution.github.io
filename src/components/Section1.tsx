@@ -23,9 +23,9 @@ const useStyles = makeStyles({
     width: '80%'
   },
   subCardTitle: {
-    marginBottom: '20px',
     textTransform: 'capitalize',
     fontFamily: 'Fira Sans',
+    paddingBottom: '16px',
   }
 });
 

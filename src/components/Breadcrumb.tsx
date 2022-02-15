@@ -13,11 +13,12 @@ function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
 
 export default function CustomSeparator() {
     return (
-        <Container sx={{ paddingTop: '6rem' }} >
-            <Stack spacing={2}>
+        <Container sx={{ paddingTop: '5rem' }} >
+            <Stack>
                 <Breadcrumbs
                     separator={<NavigateNextIcon fontSize="small" />}
                     aria-label="breadcrumb"
+                    sx={{ paddingLeft: '1rem' }}
                 >
                     {window.location.pathname.split('/').map(path => {
                         return (

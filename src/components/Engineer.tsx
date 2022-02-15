@@ -22,9 +22,9 @@ const useStyles = makeStyles((theme: Theme) => ({
         width: '100%'
     },
     subCardTitle: {
-        marginBottom: '20px',
         textTransform: 'capitalize',
         fontFamily: 'Fira Sans',
+        paddingBottom: '16px',
     },
     imageList: {
         // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
@@ -87,16 +87,7 @@ const itemData = [
         img: logo192,
         title: "title",
         name: 'name',
-    }, {
-        img: logo192,
-        title: "title",
-        name: 'name',
-    },
-    {
-        img: logo192,
-        title: "title",
-        name: 'name',
-    },
+    }
 ]
 
 function Engineer(image: any) {
@@ -118,7 +109,7 @@ function Engineer(image: any) {
                             </Typography>}
                         </CardContent>
                     </Card>
-                    <ImageList cols={6} sx={{ height: 600 }}>
+                    <ImageList cols={5} sx={{ height: 600 }}>
                         {itemData.map((item) => (
                             <ImageListItem key={item.img}>
                                 <img

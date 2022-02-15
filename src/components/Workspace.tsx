@@ -12,7 +12,6 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
-        paddingTop: '14px',
     },
     card: {
         boxShadow: 'none !important'
@@ -24,9 +23,9 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 
     subCardTitle: {
-        marginBottom: '20px',
         textTransform: 'capitalize',
         fontFamily: 'Fira Sans',
+        paddingBottom: '16px',
     },
 
     title: {
@@ -35,6 +34,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 
     media: {
         height: 240,
+        margin: '16px'
     },
 }));
 
@@ -107,9 +107,9 @@ function Workspace({ isShowImage }: any) {
                                             {item.story.title}
                                         </Typography>
                                         {item.story.contents.map(content => {
-                                            return content[0] === "*" ? <Typography pl={6} variant="body2" align="left" color="textPrimary">
+                                            return content[0] === "*" ? <Typography pl={3} variant="body1" align="left" color="textPrimary">
                                                 {content}<br></br><br></br>
-                                            </Typography> : <Typography variant="body2" align="left" color="textPrimary">
+                                            </Typography> : <Typography variant="body1" align="left" color="textPrimary">
                                                 {content}<br></br><br></br>
                                             </Typography>
                                         })}
