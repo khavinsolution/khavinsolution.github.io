@@ -4,5 +4,4 @@ const NavLinks = [
     { title: `about us`, path: `/about-us` },
 ];
 
-
 export default NavLinks;

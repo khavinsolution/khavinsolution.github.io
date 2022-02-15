@@ -36,7 +36,7 @@ function App() {
         <Route path="portfolio" element={renderWithTemplate(<Portfolio />)}>
         </Route>
         <Route path="/portfolio/:id" element={renderWithTemplate(<Details />)} />
-        <Route path="*" element={<NoMatch />} />
+        <Route path="*" element={renderWithTemplate(<NoMatch />)} />
       </Routes>
     </BrowserRouter>
   );
