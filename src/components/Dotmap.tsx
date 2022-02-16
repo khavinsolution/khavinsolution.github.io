@@ -1,15 +1,5 @@
-
-
-import { makeStyles } from '@mui/styles';
-
-const setRandomClass = () => {
-    // var ul = document.getElementsByTagName("svg");
-    // var items = ul.find("circle");
-    // var number = items.length;
-    // var random = Math.floor((Math.random() * number));
-    // items.removeClass("banaan");
-    // items.eq(random).addClass("banaan");
-}
+import { makeStyles } from '@mui/styles'
+import { useEffect } from 'react';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -23,13 +13,11 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 export const Dotmap = () => {
-    const classes = useStyles();
-    
+    useEffect(() => {
+        setInterval(function () {
 
-    setRandomClass();
-    setInterval(function () {
-        setRandomClass();
-    }, 2000);//number of milliseconds (2000 = 2 seconds)
+        }, 2000);
+    });
 
     return (
         <svg

@@ -2,7 +2,6 @@ import { Container, Grid } from "@mui/material";
 import Section from "../components/Section";
 import Breadcrumb from "../components/Breadcrumb";
 import Workspace from "../components/Workspace";
-import VerbalBrand from "../components/VerbalBrand";
 import workspace from '../assets/workspace.png'
 
 const content = {

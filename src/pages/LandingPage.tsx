@@ -1,4 +1,4 @@
-import { Container, Divider } from "@mui/material";
+import Stack from '@mui/material/Stack';
 import OurService from "../components/OurService";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
@@ -8,15 +8,14 @@ import VerbalBrand from "../components/VerbalBrand";
 import ConnectForm from "../components/Connect";
 function LandingPage() {
   return (
-    <Container maxWidth={false}>
+    <Stack spacing={2}>
       <Section1 />
       <Section2 />
-      <Divider />
       <Section3 />
       <OurService />
       <OurClients />
-      {/* <ConnectForm /> */}
-    </Container>
+      <ConnectForm />
+    </Stack>
   );
 }
 
