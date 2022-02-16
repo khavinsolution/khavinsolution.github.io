@@ -8,7 +8,7 @@ import VerbalBrand from "../components/VerbalBrand";
 import ConnectForm from "../components/Connect";
 function LandingPage() {
   return (
-    <Stack spacing={2}>
+    <Stack>
       <Section1 />
       <Section2 />
       <Section3 />
