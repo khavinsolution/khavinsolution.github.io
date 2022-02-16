@@ -5,7 +5,7 @@ import { createStyles, makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
     root: {
-        padding: `4em`,
+        padding: `3em`,
         background: '#ECEEF1',
         minWidth: '100%',
     },
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
         paddingBottom: '1rem',
     },
     form: {
-        maxWidth: '50%',
+        maxWidth: '80%',
     }
 
 })
