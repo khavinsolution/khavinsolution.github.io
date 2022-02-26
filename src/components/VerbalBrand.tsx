@@ -13,9 +13,9 @@ const useStyles = makeStyles({
   },
 });
 
-const data: any = {
-  content: 'COLLEAGUES DELIVERING EXELLENCE FOR OUR DELIVERING EXCELLENCE FOR OUR CUSTOMER FOR OUR CLIENT CUSTOMER AND '
-}
+// const data: any = {
+//   content: 'COLLEAGUES DELIVERING EXELLENCE FOR OUR DELIVERING EXCELLENCE FOR OUR CUSTOMER FOR OUR CLIENT CUSTOMER AND '
+// }
 export default function VerbalBrand() {
   const classes = useStyles();
 

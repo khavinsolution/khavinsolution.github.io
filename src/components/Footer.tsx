@@ -7,10 +7,10 @@ import {
   useMediaQuery
 } from "@mui/material";
 import { Dotmap } from "./Dotmap";
-import fbLogo from "../assets/FB_logo.svg";
-import googleLogo from "../assets/Google_logo.svg";
-import twitterLogo from "../assets/Twitter_logo.svg";
-import instaLogo from "../assets/Insta_logo.svg";
+// import fbLogo from "../assets/FB_logo.svg";
+// import googleLogo from "../assets/Google_logo.svg";
+// import twitterLogo from "../assets/Twitter_logo.svg";
+// import instaLogo from "../assets/Insta_logo.svg";
 import VerbalBrand from "./VerbalBrand";
 import WaveBorder from "./Shared/WaveBorder";
 import { makeStyles } from '@mui/styles';
