@@ -3,7 +3,6 @@ import {
   Grid,
   Link,
   Theme,
-  Toolbar,
   Typography,
   useMediaQuery
 } from "@mui/material";
@@ -14,7 +13,7 @@ import twitterLogo from "../assets/Twitter_logo.svg";
 import instaLogo from "../assets/Insta_logo.svg";
 import VerbalBrand from "./VerbalBrand";
 import WaveBorder from "./Shared/WaveBorder";
-import { makeStyles, useTheme } from '@mui/styles';
+import { makeStyles } from '@mui/styles';
 import React from 'react'
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -54,57 +53,6 @@ const navLinks = [
   { title: `Newsroom`, path: `/newroom` },
   { title: `Partner Ecosystem`, path: `/partner` },
 ];
-
-const contactLink = [
-  { title: `Facebook`, path: `/fb`, icon: fbLogo },
-  { title: `Google`, path: `/google`, icon: googleLogo },
-  { title: `Twitter`, path: `/twitter`, icon: twitterLogo },
-  { title: `Instagram`, path: `/insta`, icon: instaLogo },
-]
-
-
-const data = {
-  title: 'make the future',
-  subtitle: 'of technology beautiful',
-  content: 'We provide mission - critical IT services that transform global businesses.We deliver excellence for our customers, colleagues and communities around the world.'
-}
-
-function Copyright() {
-  return (
-    <React.Fragment>
-      {'© '}
-      <Link underline="none" color="#fff" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-    </React.Fragment>
-  );
-}
-
-const LANGUAGES = [
-  {
-    code: 'en-US',
-    name: 'English',
-  },
-  {
-    code: 'fr-FR',
-    name: 'Français',
-  },
-
-];
-
-const iconStyle = {
-  width: 48,
-  height: 48,
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  backgroundColor: 'warning.main',
-  mr: 1,
-  '&:hover': {
-    bgcolor: 'warning.dark',
-  },
-};
 
 function Footer() {
   const classes = useStyles();

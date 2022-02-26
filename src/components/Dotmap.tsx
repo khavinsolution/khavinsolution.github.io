@@ -1,4 +1,3 @@
-import { makeStyles } from '@mui/styles'
 import { useEffect } from 'react';
 
 export const Dotmap = () => {

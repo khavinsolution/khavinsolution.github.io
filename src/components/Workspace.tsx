@@ -38,9 +38,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     },
 }));
 
-const data: any = {
-    title: 'Workspace',
-}
 
 const itemData = [
     {

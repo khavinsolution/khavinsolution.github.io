@@ -42,20 +42,20 @@ const useStyles = makeStyles({
   }
 });
 
-const info: info[] = [
-  {
-    title: 'Project',
-    value: '15+'
-  },
-  {
-    title: 'Satifaction',
-    value: '99%'
-  },
-  {
-    title: 'Customers',
-    value: '20'
-  }
-]
+// const info: info[] = [
+//   {
+//     title: 'Project',
+//     value: '15+'
+//   },
+//   {
+//     title: 'Satifaction',
+//     value: '99%'
+//   },
+//   {
+//     title: 'Customers',
+//     value: '20'
+//   }
+// ]
 const data: any = {
   title: 'we delivers',
   subtitle: 'the mission critical IT services that move the world',
