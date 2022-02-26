@@ -32,7 +32,7 @@
     "test": "react-scripts test",
     "build": "react-scripts build",
     "postbuild": "react-snap",
-    "deployAsDoc": "rimraf ./docs/* && mv ./build ./docs",
+    "deployAsDoc": "rimraf ./docs/* | mv -f ./build/* ./docs/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
