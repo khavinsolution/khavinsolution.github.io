@@ -1,4 +1,4 @@
-import { Card, CardContent, Container, Grid, IconButton, ImageList, ImageListItem, ImageListItemBar, ListSubheader, Theme, Typography, useMediaQuery } from "@mui/material";
+import { Card, CardContent, Container, Grid, IconButton, ImageList, ImageListItem, ImageListItemBar, Theme, Typography } from "@mui/material";
 import logo192 from '../assets/logo192.png'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { makeStyles } from '@mui/styles';
