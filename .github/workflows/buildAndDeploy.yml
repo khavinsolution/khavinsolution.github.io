@@ -28,4 +28,7 @@ jobs:
         cache: 'npm'
     - run: yarn
     - run: yarn build --if-present
+    - run: git add .
+    - run: git commit -m 'release'
+    - run: git push
 
