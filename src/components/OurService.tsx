@@ -9,7 +9,6 @@ import {
   Box,
   Link
 } from "@mui/material";
-import MobileImg from "./Carousel";
 import { createStyles, makeStyles } from '@mui/styles'
 import pngwing from '../assets/pngwing.png'
 
@@ -95,10 +94,6 @@ export default function OurService() {
             {data.content}
           </Container>
         </Typography>
-      </Hidden>
-      <Hidden smUp>
-
-        <MobileImg />
       </Hidden>
       <Hidden smDown>
         <div className={classes.flexw}>
