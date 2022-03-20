@@ -28,7 +28,8 @@ jobs:
       - run: yarn
       - run: yarn build --if-present
       - run: |
-          rm -rf ./docs/* | mv -f ./build/* ./docs/
+          rm -rf ./docs/* 
+          mv -f ./build/* ./docs/
           git config --global user.name 'trkhanh'
           git config --global user.email 'tran_khanh@outlook.com'
           git status
