@@ -31,7 +31,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "build": "react-scripts build",
-    "postbuild": "react-snap deployAsDoc",
+    "postbuild_REMOVE": "react-snap",
     "deployAsDoc": "rimraf ./docs/* | mv -f ./build/* ./docs/",
     "eject": "react-scripts eject"
   },
