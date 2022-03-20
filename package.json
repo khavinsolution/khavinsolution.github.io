@@ -29,7 +29,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "build": "react-scripts build",
-    "postbuild": "react-snap",
+    "postbuild_REMOVE": "react-snap",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
