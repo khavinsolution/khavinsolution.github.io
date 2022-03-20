@@ -1,17 +1,5 @@
-import { makeStyles } from '@mui/styles'
 import { useEffect } from 'react';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-    },
-    banaan: {
-        fill: '#fff',
-        transition: 'all 2s ease',
-        boxShadow: '0 0 0 0 rgba(232, 76, 61, 0.7)',
-        animation: 'pulse 1.25s infinite cubic - bezier(0.66, 0, 0, 1)',
-    }
-
-}));
 export const Dotmap = () => {
     useEffect(() => {
         setInterval(function () {

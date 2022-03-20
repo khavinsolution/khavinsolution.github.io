@@ -1,6 +1,5 @@
-import { Divider, Icon, IconButton, List, ListItem, ListItemIcon, ListItemText, SwipeableDrawer, Theme } from "@mui/material";
+import { Divider, IconButton, List, ListItem, ListItemText, SwipeableDrawer, Theme } from "@mui/material";
 import React, { useState } from "react";
-import { NavLink } from "./NavigationBar";
 import logo from "../assets/logo.svg";
 import MenuIcon from '@mui/icons-material/Menu';
 import { makeStyles } from "@mui/styles";

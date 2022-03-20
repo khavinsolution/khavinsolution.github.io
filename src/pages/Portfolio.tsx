@@ -1,8 +1,5 @@
-import { Container, Divider } from "@mui/material";
-import OurService from "../components/OurService";
-import Pricing from "../components/Pricing";
+import { Container, } from "@mui/material";
 import Section from "../components/Section";
-import ConnectForm from "../components/Connect";
 import pizza4ps from "../assets/pizza4ps.png";
 import varroc from "../assets/varroc.png";
 import alpha from "../assets/alpha.png";

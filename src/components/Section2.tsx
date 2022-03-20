@@ -42,6 +42,7 @@ const useStyles = makeStyles({
   }
 });
 
+// eslint-disable-next-line @typescript-eslint/no-redeclare
 const info: info[] = [
   {
     title: 'Project',
