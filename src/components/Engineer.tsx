@@ -5,6 +5,7 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
+        minWidth: '100%'
     },
     card: {
         boxShadow: 'none !important'

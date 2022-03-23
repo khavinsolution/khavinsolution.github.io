@@ -25,6 +25,7 @@ const renderWithTemplate = (page: any) => (<ThemeProvider theme={Theme}>
   </div>
 </ThemeProvider>
 )
+
 function App() {
   return (
     <BrowserRouter>

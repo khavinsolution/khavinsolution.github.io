@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0e38689.chunk.css",
+    "main.js": "/static/js/main.d6ee6060.chunk.js",
+    "main.js.map": "/static/js/main.d6ee6060.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa0c8a25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa0c8a25.js.map",
+    "static/js/2.b7c1544a.chunk.js": "/static/js/2.b7c1544a.chunk.js",
+    "static/js/2.b7c1544a.chunk.js.map": "/static/js/2.b7c1544a.chunk.js.map",
+    "static/js/3.3c26a0cf.chunk.js": "/static/js/3.3c26a0cf.chunk.js",
+    "static/js/3.3c26a0cf.chunk.js.map": "/static/js/3.3c26a0cf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e0e38689.chunk.css.map": "/static/css/main.e0e38689.chunk.css.map",
+    "static/js/2.b7c1544a.chunk.js.LICENSE.txt": "/static/js/2.b7c1544a.chunk.js.LICENSE.txt",
+    "static/media/404.80139879.svg": "/static/media/404.80139879.svg",
+    "static/media/BackgroundVerbal.00d7550b.svg": "/static/media/BackgroundVerbal.00d7550b.svg",
+    "static/media/HandShake.03c11954.svg": "/static/media/HandShake.03c11954.svg",
+    "static/media/JS_logo.a2fa4bbb.svg": "/static/media/JS_logo.a2fa4bbb.svg",
+    "static/media/index.css": "/static/media/Lato-Thin.01923cbb.ttf",
+    "static/media/NET_logo.491dde5f.svg": "/static/media/NET_logo.491dde5f.svg",
+    "static/media/PHP_logo.83a8be91.svg": "/static/media/PHP_logo.83a8be91.svg",
+    "static/media/PT_logo.18ad4c13.svg": "/static/media/PT_logo.18ad4c13.svg",
+    "static/media/React_logo.0dd47020.svg": "/static/media/React_logo.0dd47020.svg",
+    "static/media/SF_logo.4330c99d.svg": "/static/media/SF_logo.4330c99d.svg",
+    "static/media/SPL.fc05798f.png": "/static/media/SPL.fc05798f.png",
+    "static/media/Teamwork.7ff8dd61.svg": "/static/media/Teamwork.7ff8dd61.svg",
+    "static/media/alpha.0c2919d7.png": "/static/media/alpha.0c2919d7.png",
+    "static/media/logo.30fac61c.svg": "/static/media/logo.30fac61c.svg",
+    "static/media/pizza4ps.75e319aa.png": "/static/media/pizza4ps.75e319aa.png",
+    "static/media/pngwing.001d6a31.png": "/static/media/pngwing.001d6a31.png",
+    "static/media/varroc.c5cfbfe1.png": "/static/media/varroc.c5cfbfe1.png",
+    "static/media/workspace.5f62f51a.png": "/static/media/workspace.5f62f51a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa0c8a25.js",
+    "static/js/2.b7c1544a.chunk.js",
+    "static/css/main.e0e38689.chunk.css",
+    "static/js/main.d6ee6060.chunk.js"
+  ]
+}
