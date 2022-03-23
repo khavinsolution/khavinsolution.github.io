@@ -31,6 +31,7 @@ jobs:
           rm -rf docs
           mkdir docs
           mv -f ./build/* ./docs/
+          git pull
           git config --global user.name 'trkhanh'
           git config --global user.email 'tran_khanh@outlook.com'
           git status
