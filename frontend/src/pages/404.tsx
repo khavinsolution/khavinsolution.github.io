@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     },
 });
 
-const NoMatch = () => {
+const Custom404 = () => {
     const classes = useStyles();
     return (
         <Container>
@@ -38,7 +38,7 @@ const NoMatch = () => {
     );
 };
 
-export default NoMatch
+export default Custom404
 
 
 
