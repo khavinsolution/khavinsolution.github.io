@@ -1,0 +1,5 @@
+.ant-menu-item > .ant-menu-title-content {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.section {
+  color: var(--primary);
+}
+.section > .title {
+  font-family: Raleway Dots;
+  text-transform: capitalize;
+  font-size: 40pt;
+  color: var(--primary);
+}
+
+.section > .subtitle {
+  font-family: FiraSan;
+  text-transform: capitalize;
+  font-size: x-large;
+  color: var(--primary);
+}
+
+.section > .content {
+  font-size: medium;
+  color: var(--primary);
+}

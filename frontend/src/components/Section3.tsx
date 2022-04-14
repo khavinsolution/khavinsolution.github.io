@@ -38,7 +38,7 @@ const data: any = {
   title: '20+ PROJECTS ',
   subtitle: 'Our skills ',
   content: 'We offers you a global talent pool of senior full stack developers who have the experience working on the most complicated projects for the world’s largest organizationsWe are proud of our expertise and are ready to share it.We deliver perfect solutions tailored to your needs and business objectives.We do not just code, we care about the quality of the end product as much as you do. '
-}
+
 
 const techList = [
   reactLogo,
